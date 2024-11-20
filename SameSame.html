@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Block</title>
+    <link rel="stylesheet" href="SameSame.css">
+</head>
+<body>
+    <div class="divm">
+        <div class="div1">
+            <h1>Match The Following</h1>
+        </div>
+        <div class="div2">
+            <img id="Mango" src="Screenshot 2024-11-19 145455.png" onclick="selectImage('Mango')" width="150px"/>
+            <img id="Grapes" src="Screenshot 2024-11-19 145609.png" onclick="selectImage('Grapes')" width="150px"/>
+            <img id="Pineapple" src="Screenshot 2024-11-19 145720.png" onclick="selectImage('Pineapple')" width="150px"/>
+        </div>
+        <div class="div3">
+            <button onclick="checkMatch('Pineapple')">Pineapple</button>
+            <button onclick="checkMatch('Mango')">Mango</button>
+            <button onclick="checkMatch('Grapes')">Grapes</button>
+        </div>
+        <p id="message"></p>
+    </div>
+    <script src="Game.js"></script>
+</body>
+</html>
